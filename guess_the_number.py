@@ -22,7 +22,8 @@ def adivina_el_numero(x): #x representa el numero maximo
             print("Intenta otra vez. Este numero es muy pequeno")
         if prediccion > numero_aleatorio:
             print("Intenta otra vez. Este numero es muy pequeno")
-        
+
+    #print esta fuera del ciclo porque el ciclo dura hasta cuando prediccion != numero_aleatorio  
     print(f"Felicitaciones! Adivinaste el numero {numero_aleatorio} correctamente!")
 
 
